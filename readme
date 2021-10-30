@@ -1,10 +1,9 @@
 These are the below steps need to follow from the scratch
 
-After creating the new server on ec2 instance or Aws Lightsail, you must update the system, this update will provide latest modifications on al
-l the applications for your newly created instance.
+After creating the new server on ec2 instance or Aws Lightsail, you must update the system, this update will provide latest modifications on all the applications for your newly created instance.
 
 ######################################################################################################################################################################################################
-# must use sudo to do this operation
+# must use sudo infornt of your command to do this operation
 sudo apt-get update 
 
 # we are going to connect to MySQL database which is linked to your created instance and if you want to see the databases and tables inside the database server, install Sql-client from below command
