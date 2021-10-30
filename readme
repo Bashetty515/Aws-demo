@@ -1,13 +1,24 @@
-sudo apt-get update
-# For Sql-client
+These are the below steps need to follow from the scratch
+
+After creating the new server on ec2 instance or Aws Lightsail, you must update the system, this update will provide latest modifications on al
+l the applications for your newly created instance.
+
+######################################################################################################################################################################################################
+# must use sudo to do this operation
+sudo apt-get update 
+
+# we are going to connect to MySQL database which is linked to your created instance and if you want to see the databases and tables inside the database server, install Sql-client from below command
 sudo apt-get install mysql-client
 
-# For python and related frameworks
+# I worted code on python and related frameworks and dependencies need to be install to work the application properly.
 
 sudo apt-get install python3
 sudo apt-get install python3-flask
 sudo apt-get install python3-pymysql
 sudo apt-get install python3-boto3
 
-# for running application
+# for running  python application, you must inside the folder which we have this Empapp.py file,
 sudo python3 Empapp.py
+
+All the best for your trials and keep me update the results :)
+
